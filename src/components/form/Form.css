@@ -1,0 +1,99 @@
+.formReview {
+    background: #fff;
+    max-width: 700px;
+    width: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 800px;
+    right: 32%;
+    z-index: 2;
+    display: none;
+}
+
+label {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+input {
+    background: #fff;
+}
+
+.client-image {
+    font-size: 16px;
+    color: #333;
+    max-width: 150px;
+    padding: 15px;
+}
+
+.input-block {
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.form-top {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-title {
+    background: #fff;
+    font-size: 24px;
+    color: #333;
+}
+
+.rem-form {
+    background: #fff;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.client-name {
+    max-width: 400px;
+    width: 100%;
+    min-height: 50px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    margin: 15px 0;
+    background: #fff;
+    padding-left: 10px;
+}
+
+.client-comment {
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    margin: 15px 0;
+    background: #fff;
+    resize: none;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+::placeholder {
+    font-size: 14px;
+    color: #8a8a8a;
+    /* padding-left: 10px;
+    padding-top: 10px; */
+}
+
+.review-submit {
+    width: 200px;
+    height: 50px;
+    background: #585CC6;
+    border: 1px solid transparent;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,81 @@
+@media(max-width: 1024px) {
+    .section-title {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+    .wrapper {
+        flex-direction: column;
+        padding: 15px;
+    }
+    .section-blocks {
+        flex-direction: column;
+    }
+    .my-photo {
+        width: 100%;
+    }
+    .review-clients {
+        width: 100%;
+    }
+    .review-clients:nth-child(2) {
+        display: none;
+    }
+    .section {
+        padding: 10px;
+    }
+    .my-name-block {
+        flex-flow: wrap;
+    }
+    .my-town-block {
+        flex-flow: wrap;
+    }
+    .about-me-block {
+        font-size: 17px;
+    }
+    .reviews-top {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .reviews {
+        max-width: 100%;
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 40px;
+    }
+    .review-clients {
+        width: 100% !important;
+        padding: 10px;
+        margin-right: 0;
+    }
+    .section-right {
+        padding: 10px;
+    }
+    .footer {
+        padding: 20px;
+    }
+    .footer-in {
+        flex-direction: column;
+    }
+    .copyright {
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+    .review-clients-top {
+        flex-direction: column;
+    }
+    .review-clients-top-in {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .review-clients-name {
+        font-size: 17px;
+    }
+    .formReview {
+        right: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+    .input-block {
+        flex-flow: wrap;
+    }
+}

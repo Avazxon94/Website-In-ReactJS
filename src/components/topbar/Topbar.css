@@ -1,0 +1,96 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background: #fff;
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+}
+
+.topbar {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    /* position: fixed;
+    top: 0; */
+    z-index: 10;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    background: #fff;
+}
+
+.left a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    background: #fff;
+}
+
+.left a:hover {
+    color: #7a7eef;
+}
+
+.my-img {
+    width: 50px;
+    height: auto;
+    border-radius: 3px;
+    margin-right: 20px;
+    background: #fff;
+}
+
+.logo-wrap {
+    line-height: 1.2;
+    background: #fff;
+}
+
+.logo {
+    background: #fff;
+}
+
+.logo a {
+    font-size: 65px;
+    color: #585CC6;
+    text-decoration: none;
+    font-weight: 800;
+    background: #fff;
+}
+
+.logo a:hover {
+    color: #7a7eef;
+}
+
+.sub-logo {
+    background: #fff;
+}
+
+.sub-logo a {
+    color: #585CC6;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    background: #fff;
+}
+
+.sub-logo a:hover {
+    color: #7a7eef;
+}
+
+.sign-up {
+    font-size: 18px;
+    color: #fff;
+    background: #585CC6;
+    padding: 17px 28px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    background: #7a7eef;
+}

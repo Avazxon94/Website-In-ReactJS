@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'gilroy';
+    src: local('gilroy'), url('./fonts/Gilroy-Regular.ttf') format('ttf');
+}
+
+* {
+    margin: 0;
+    background: #585CC6;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}

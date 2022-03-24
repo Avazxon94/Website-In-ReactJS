@@ -1,0 +1,93 @@
+.section {
+    padding: 80px;
+}
+
+.section-title {
+    font-size: 124px;
+    line-height: 148px;
+    color: #fff;
+    margin-bottom: 90px;
+    font-family: sans-serif;
+}
+
+.section-blocks {
+    display: flex;
+    align-items: center;
+    background: #fff;
+}
+
+.section-left {
+    margin: 0;
+}
+
+.my-photo {
+    width: 460px;
+    height: auto;
+}
+
+.section-right {
+    background: #fff;
+    padding: 40px;
+}
+
+.my-name-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.my-name {
+    color: #585cc6;
+    font-size: 32px;
+    background: #fff;
+}
+
+.my-birth-day {
+    font-size: 18px;
+    color: #8a8a8a;
+    background: #fff;
+}
+
+.my-town-block {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.my-town,
+.my-sex,
+.my-age {
+    font-size: 18px;
+    color: #333;
+    background: #fff;
+}
+
+.about-me-block {
+    font-size: 18px;
+    color: #333;
+    background: #fff;
+    line-height: 1.5;
+}
+
+.comment {
+    font-size: 18px;
+    color: #333;
+    font-family: sans-serif;
+    margin-top: 20px;
+    background: #fff;
+}
+
+.my-pet {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+    background: #fff;
+}
+
+b {
+    background: #fff;
+}
